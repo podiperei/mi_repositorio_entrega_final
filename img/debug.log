@@ -1,0 +1,6 @@
+[1021/161420.065:ERROR:settings.cc(430)] Settings version is not 5
+[1021/162420.234:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Sofia\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\5c3ea7dd-3f63-4d77-a81b-3a1c6cb010fe: El sistema no puede encontrar la ruta especificada. (0x3)
+[1021/162420.250:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Sofia\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\73c4b4f9-aa40-4d98-bd4d-95f170211b7b: El sistema no puede encontrar la ruta especificada. (0x3)
+[1021/162420.266:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Sofia\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\79b29fc4-b391-41ed-9be8-172a258c466b: El sistema no puede encontrar la ruta especificada. (0x3)
+[1021/162420.266:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Sofia\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\e7e0c2c6-9cb6-41b8-a2de-39509aa03968: El sistema no puede encontrar la ruta especificada. (0x3)
+[1021/162420.266:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
