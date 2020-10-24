@@ -1,0 +1,34 @@
+/*COVER*/
+
+#cover{
+    background-image: url("../img/universo.jpg");
+    background-size: cover;
+    color:$colorprimary;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transition: width 2s;
+  }
+  
+  #cover-texto{
+    width: 100%;
+    text-align: center;
+  }
+  .contenido-seccion{
+    text-align: center;
+    text-align: center;
+   }
+  
+  .top-margin-sm {margin-top: 30px;}
+  .top-margin-lg {margin-top: 60px;}
+  
+  
+  .formatocarrusel{
+    transform: scale(0.9, 0.9);
+    }
+  
+  .imagencard{
+    animation-name:animate__fadeInDown;
+    animation-duration: 4s;
+  }

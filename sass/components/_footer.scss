@@ -1,0 +1,50 @@
+  .footer-main {
+    width: 100%;
+    background:$colorthird;
+    color: $colorprimary;
+    padding: 80px;
+    a{
+    color: $colorprimary;
+    &:hover {
+        background-color: #ddd;
+        border:1px solid $colorprimary;
+        color: black;
+      }
+  }
+}
+    
+  
+  .footer .footer-main .socials a {
+    border:1px solid violet;
+    width:45px;
+    padding-top:5px;
+    margin-right:5px;
+    text-align:center;
+    display:inline-block;
+    font-size:1.3em;
+    border-radius:5px;
+    color:#900c3f;
+    &:hover {
+        background-color: #ddd;
+        border:1px solid $colorprimary;
+        color: black;
+      }
+  }
+
+  .footer-main.list-inline .list-inline-item {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: $colorprimary;
+    text-decoration: none;
+  }
+  
+  .footer-main .links ul a:hover {
+    color:black;
+    margin-left:15px;
+  }
+  
+  .footercopyright{
+    text-align: center; 
+    padding: 30px;
+  }
