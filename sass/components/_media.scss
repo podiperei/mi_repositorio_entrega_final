@@ -15,3 +15,11 @@
             color: white;
             }
 }
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header {
+    height: 100vh;
+  }
+}
