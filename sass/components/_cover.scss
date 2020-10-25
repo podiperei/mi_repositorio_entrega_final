@@ -1,17 +1,6 @@
 /*COVER*/
 
-.cover{
-    background-image: url("../img/universo.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    color:$colorprimary;
-    height: 100%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    transition: width 2s;
-  }
+
   
   #cover-texto{
     width: 100%;

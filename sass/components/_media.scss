@@ -23,3 +23,9 @@
     height: 100vh;
   }
 }
+
+@media only screen and (max-device-width: 1024px) {
+  .parallaximg1, .parallaximg2, .parallaximg3 {
+    background-attachment: scroll;
+  }
+}

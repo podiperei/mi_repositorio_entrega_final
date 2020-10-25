@@ -1,5 +1,4 @@
 /* define primary colors */
-/* define primary fonts */
 /* Navbar links */
 .navbar {
   background-color: white;
@@ -48,6 +47,7 @@
   outline: none;
 }
 
+/* define primary fonts */
 .footer-color {
   background: #8b4a97;
 }
@@ -88,25 +88,97 @@ h6 a:hover {
   color: white;
 }
 
-/*COVER*/
-.cover {
-  background-image: url("../img/universo.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  color: white;
+html {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: width 2s;
-  transition: width 2s;
+  margin: 0;
+  padding: 0;
 }
 
+.parallax {
+  position: relative;
+  opacity: 0.85;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallaximg1 {
+  background-image: url("/img/universo.jpg");
+  min-height: 600px;
+}
+
+#parallaximg2 {
+  background-image: url("/img/Energia.jpg");
+  min-height: 400px;
+}
+
+#parallaximg3 {
+  background-image: url("/img/Tarot.jpg");
+  min-height: 400px;
+}
+
+#parallaximg4 {
+  background-image: url("/img/woman-reading-tarot-cards-cafe-260nw-1194407269.webp");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #8b4a97;
+}
+
+.caption span.border {
+  background-color: white;
+  color: #777;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption span.intro {
+  font-family: "Architects Daughter", cursive;
+  color: white;
+  font-weight: bold;
+  padding: 18px;
+  font-size: 35px;
+}
+
+.textintro {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.separador1 {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.separador2 {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.separador3 {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+/*COVER*/
 #cover-texto {
   width: 100%;
   text-align: center;
@@ -316,6 +388,12 @@ h3 {
   body,
   header {
     height: 100vh;
+  }
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .parallaximg1, .parallaximg2, .parallaximg3 {
+    background-attachment: scroll;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
