@@ -1,4 +1,8 @@
 /* define primary colors */
+.fondo1 {
+  background-color: #e4c0c0;
+}
+
 /* Navbar links */
 .navbar {
   background-color: white;
@@ -48,6 +52,11 @@
 }
 
 /* define primary fonts */
+.fuentereiki {
+  -webkit-text-decoration: "Montserrat", sans-serif;
+          text-decoration: "Montserrat", sans-serif;
+}
+
 .fuentechakras1a {
   text-decoration: none;
   color: red;
@@ -108,6 +117,113 @@
   size: 2.5 em;
 }
 
+.fuentechakras4a {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+
+.fuentechakras4 {
+  text-decoration: none;
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.fuentechakras4bis {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  size: 2.5 em;
+}
+
+.fuentechakras5 {
+  text-decoration: none;
+  color: blue;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.fuentechakras5bis {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  size: 2.5 em;
+}
+
+.fuentechakras5a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.fuentechakras6 {
+  text-decoration: none;
+  color: blueviolet;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.fuentechakras6bis {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+  size: 2.5 em;
+}
+
+.fuentechakras6a {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.fuentechakras6 {
+  text-decoration: none;
+  color: blueviolet;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.fuentechakras7bis {
+  text-decoration: none;
+  color: violet;
+  font-weight: bold;
+  size: 2.5 em;
+}
+
+.fuentechakras7a {
+  text-decoration: none;
+  color: violet;
+  font-weight: bold;
+}
+
+.fuentechakras7 {
+  text-decoration: none;
+  color: violet;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.fuentechakras8bis {
+  text-decoration: none;
+  color: #4e0c5a;
+  font-weight: bold;
+  size: 2.5 em;
+}
+
+.fuentechakras8a {
+  text-decoration: none;
+  color: #4e0c5a;
+  font-weight: bold;
+}
+
+.fuentechakras8 {
+  text-decoration: none;
+  color: #4e0c5a;
+  font-style: italic;
+  font-weight: bold;
+}
+
 .footer-color {
   background: #8b4a97;
 }
@@ -165,7 +281,7 @@ html {
 
 #parallaximg1 {
   background-image: url("/img/universo.jpg");
-  min-height: 600px;
+  min-height: 750px;
 }
 
 #parallaximg2 {
@@ -179,7 +295,7 @@ html {
 }
 
 #parallaximg4 {
-  background-image: url("/img/woman-reading-tarot-cards-cafe-260nw-1194407269.webp");
+  background-image: url("/img/CARTAS.jpg");
   min-height: 400px;
 }
 
@@ -219,7 +335,7 @@ html {
   background-color: white;
   text-align: center;
   padding: 50px 80px;
-  text-align: justify;
+  text-align: center;
 }
 
 .separador2 {
@@ -227,7 +343,7 @@ html {
   background-color: white;
   text-align: center;
   padding: 50px 80px;
-  text-align: justify;
+  text-align: center;
 }
 
 .separador3 {
@@ -235,7 +351,7 @@ html {
   background-color: white;
   text-align: center;
   padding: 50px 80px;
-  text-align: justify;
+  text-align: center;
 }
 
 /*COVER*/
@@ -298,6 +414,165 @@ button.close {
   z-index: 2;
   padding-right: 1rem;
   padding-top: .6rem;
+}
+
+.cardBox {
+  float: left;
+  font-size: 1.2em;
+  margin: 1% 0 0 1%;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 23.7%;
+}
+
+.cardBox:hover .cardtarot {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.cardtarot {
+  background: #222;
+  cursor: default;
+  height: 400px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 0.4s ease 0s;
+  transition: -webkit-transform 0.4s ease 0s;
+  transition: transform 0.4s ease 0s;
+  transition: transform 0.4s ease 0s, -webkit-transform 0.4s ease 0s;
+  width: 95%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+}
+
+.cardtarot p {
+  margin-bottom: 1.8em;
+}
+
+.cardtarot .front,
+.cardtarot .back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: #8b4a97;
+}
+
+.cardtarot .front strong {
+  background: #fff;
+  border-radius: 100%;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+
+.cardtarot .back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.cardtarot .back a {
+  padding: 0.3em 0.5em;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+.cardtarot .back a:hover {
+  background: #fff;
+  color: #333;
+  text-shadow: 0 0 1px #333;
+}
+
+.cardBox:nth-child(1) .cardtarot.back {
+  background-color: #8b4a97;
+}
+
+.cardBox:nth-child(2) .cardtarot .back {
+  background-color: #8b4a97;
+}
+
+.cardBox:nth-child(3) .cardtarot .back {
+  background-color: #8b4a97;
+}
+
+.cardBox:nth-child(4) .cardtarot .back {
+  background-color: #8b4a97;
+}
+
+.cardBox:nth-child(2) .cardtarot {
+  -webkit-animation: giro 1.5s 1;
+  animation: giro 1.5s 1;
+}
+
+.cardBox:nth-child(3) .cardtarot {
+  -webkit-animation: giro 2s 1;
+  animation: giro 2s 1;
+}
+
+.cardBox:nth-child(4) .cardtarot {
+  -webkit-animation: giro 2.5s 1;
+  animation: giro 2.5s 1;
+}
+
+@-webkit-keyframes giro {
+  from {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes giro {
+  from {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardBox {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+  }
+  .cardtarot {
+    height: 285px;
+  }
+  .cardBox:last-child {
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardBox {
+    width: 94.5%;
+  }
+  .ccardtarot {
+    height: 260px;
+  }
 }
 
 /* define primary titles */
@@ -372,6 +647,165 @@ button.close {
   padding-top: .6rem;
 }
 
+.cardBox {
+  float: left;
+  font-size: 1.2em;
+  margin: 1% 0 0 1%;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 23.7%;
+}
+
+.cardBox:hover .cardtarot {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.cardtarot {
+  background: #222;
+  cursor: default;
+  height: 400px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 0.4s ease 0s;
+  transition: -webkit-transform 0.4s ease 0s;
+  transition: transform 0.4s ease 0s;
+  transition: transform 0.4s ease 0s, -webkit-transform 0.4s ease 0s;
+  width: 95%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+}
+
+.cardtarot p {
+  margin-bottom: 1.8em;
+}
+
+.cardtarot .front,
+.cardtarot .back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: #8b4a97;
+}
+
+.cardtarot .front strong {
+  background: #fff;
+  border-radius: 100%;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+
+.cardtarot .back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.cardtarot .back a {
+  padding: 0.3em 0.5em;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+.cardtarot .back a:hover {
+  background: #fff;
+  color: #333;
+  text-shadow: 0 0 1px #333;
+}
+
+.cardBox:nth-child(1) .cardtarot.back {
+  background-color: #8b4a97;
+}
+
+.cardBox:nth-child(2) .cardtarot .back {
+  background-color: #8b4a97;
+}
+
+.cardBox:nth-child(3) .cardtarot .back {
+  background-color: #8b4a97;
+}
+
+.cardBox:nth-child(4) .cardtarot .back {
+  background-color: #8b4a97;
+}
+
+.cardBox:nth-child(2) .cardtarot {
+  -webkit-animation: giro 1.5s 1;
+  animation: giro 1.5s 1;
+}
+
+.cardBox:nth-child(3) .cardtarot {
+  -webkit-animation: giro 2s 1;
+  animation: giro 2s 1;
+}
+
+.cardBox:nth-child(4) .cardtarot {
+  -webkit-animation: giro 2.5s 1;
+  animation: giro 2.5s 1;
+}
+
+@-webkit-keyframes giro {
+  from {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes giro {
+  from {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardBox {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+  }
+  .cardtarot {
+    height: 285px;
+  }
+  .cardBox:last-child {
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardBox {
+    width: 94.5%;
+  }
+  .ccardtarot {
+    height: 260px;
+  }
+}
+
 .Contactanos {
   max-width: 800px;
   margin: 50px 200px;
@@ -439,8 +873,15 @@ button.close {
 }
 
 .imagendefondo {
-  background-image: url("/img/universo.jpg");
-  background-color: #8b4a97;
+  background-image: url("/img/banner-contact-reiki.jpg");
+  min-height: 600px;
+  background-size: cover;
+}
+
+.imagendefondo2 {
+  background-image: url("/img/viva-luna.jpg");
+  min-height: 600px;
+  background-size: cover;
 }
 
 /*FOTOS*/

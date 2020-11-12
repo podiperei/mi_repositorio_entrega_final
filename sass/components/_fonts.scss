@@ -3,6 +3,10 @@ $fuente: 'Architects Daughter', cursive,'Montserrat', sans-serif;
 $fuente1:'Architects Daughter', cursive;
 $fuente2:'Montserrat', sans-serif;
 
+.fuentereiki{
+    text-decoration: $fuente2;
+
+}
 
 .fuentechakras1a {
     text-decoration: none;
@@ -63,3 +67,104 @@ font-weight:bold;
                 font-weight:bold;
                 size: 2.5 em;
                 }
+
+.fuentechakras4a {
+                    text-decoration: none;
+                    color: green;
+                    font-weight:bold;
+                    }
+                
+.fuentechakras4 {
+                text-decoration: none;
+                color: green;
+                font-style: italic;
+                font-weight:bold;
+                }
+                
+.fuentechakras4bis {
+                    text-decoration: none;
+                    color: green;
+                    font-weight:bold;
+                    size: 2.5 em;
+                    }      
+
+.fuentechakras5 {
+                    text-decoration: none;
+                    color:blue;
+                    font-style: italic;
+                    font-weight:bold;
+                    }
+                    
+.fuentechakras5bis {
+                        text-decoration: none;
+                        color:blue;
+                        font-weight:bold;
+                        size: 2.5 em;
+                        }
+.fuentechakras5a {
+                            text-decoration: none;
+                            color:blue;
+                            font-weight:bold;
+                            }
+
+.fuentechakras6 {
+                                text-decoration: none;
+                                color: blueviolet;
+                                font-style: italic;
+                                font-weight:bold;
+                                }
+                                
+.fuentechakras6bis {
+                                    text-decoration: none;
+                                    color: blueviolet;
+                                    font-weight:bold;
+                                    size: 2.5 em;
+                                    }
+.fuentechakras6a {
+                                        text-decoration: none;
+                                        color: blueviolet;
+                                        font-weight:bold;
+                                        }
+
+                                        .fuentechakras6 {
+                                            text-decoration: none;
+                                            color: blueviolet;
+                                            font-style: italic;
+                                            font-weight:bold;
+                                            }
+                                            
+.fuentechakras7bis {
+                                                text-decoration: none;
+                                                color: violet;
+                                                font-weight:bold;
+                                                size: 2.5 em;
+                                                }
+.fuentechakras7a {
+                                                    text-decoration: none;
+                                                    color: violet;
+                                                    font-weight:bold;
+                                                    }
+.fuentechakras7 {
+                                                        text-decoration: none;
+                                                        color: violet;
+                                                        font-style: italic;
+                                                        font-weight:bold;
+                                                        }
+
+        .fuentechakras8bis {
+                                                            text-decoration: none;
+                                                            color: $colorfive;
+                                                            font-weight:bold;
+                                                            size: 2.5 em;
+                                                            }
+            .fuentechakras8a {
+                                                                text-decoration: none;
+                                                                color: $colorfive;
+                                                                font-weight:bold;
+                                                                }
+            .fuentechakras8 {
+                                                                    text-decoration: none;
+                                                                    color: $colorfive;
+                                                                    font-style: italic;
+                                                                    font-weight:bold;
+                                                                    }

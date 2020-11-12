@@ -4,9 +4,16 @@
   }
   
   .imagendefondo{
-  background-image: url("/img/universo.jpg");
-  background-color: $colorthird;
-  }
+  background-image: url("/img/banner-contact-reiki.jpg");
+  min-height: 600px;
+  background-size: cover;
+    }
+
+   .imagendefondo2{
+    background-image: url("/img/viva-luna.jpg");
+    min-height: 600px;
+    background-size: cover;
+     }
 
   
 /*FOTOS*/
@@ -17,4 +24,6 @@
     animation-duration: 2s; 
     padding: 0px 30px;
   }
+
+  
   
