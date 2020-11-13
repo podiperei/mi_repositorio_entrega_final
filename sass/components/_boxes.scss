@@ -2,6 +2,18 @@
     font-family:$fuente2;
     font-size: 20px;
   }
+
+  .ptarot {
+    font-family:$fuente2;
+    font-size: 20px;
+    font-weight: bold;
+    } 
+
+  .preiki {
+      font-family:$fuente2;
+      font-size: 20px;
+      } 
+    
   
 .box-shadow{
     box-shadow: 10px 10px 5px $colorfour;
@@ -23,7 +35,7 @@ button.close {
       padding-top: .6rem;
     }
 
-    .cardBox {
+.cardBox {
       float: left;
       font-size: 1.2em;
       margin: 1% 0 0 1%;
@@ -37,7 +49,6 @@ button.close {
     }
     
     .cardtarot {
-      background: #222;
       cursor: default;
       height: 400px;
       transform-style: preserve-3d;
@@ -51,7 +62,19 @@ button.close {
       margin-bottom: 1.8em;
     }
     
-    .cardtarot .front,
+    .cardtarot .front {
+      backface-visibility: hidden;
+      box-sizing: border-box;
+      font-weight: bold;
+      display: block;
+      height: 100%;
+      padding: 0.8em;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      background-color: $colorthird;
+      }
+
     .cardtarot .back {
       backface-visibility: hidden;
       box-sizing: border-box;
@@ -70,7 +93,6 @@ button.close {
       background: #fff;
       border-radius: 100%;
       color: #222;
-      font-size: 1.5em;
       line-height: 30px;
       padding: 0 7px 4px 6px;
     }
@@ -165,4 +187,14 @@ button.close {
       .ccardtarot {
         height: 260px;
       }
+    }
+
+    .fondopricing{
+      background-color: $colorfive;
+      
+    }
+
+    .fondopricing2{
+      background-color: $colorfour;
+      
     }

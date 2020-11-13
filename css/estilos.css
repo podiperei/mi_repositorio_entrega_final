@@ -299,6 +299,11 @@ html {
   min-height: 400px;
 }
 
+#parallaximg5 {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20%281%29.jpg");
+  min-height: 400px;
+}
+
 .caption {
   position: absolute;
   left: 0;
@@ -390,6 +395,17 @@ html {
   font-size: 20px;
 }
 
+.ptarot {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.preiki {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
 .box-shadow {
   -webkit-box-shadow: 10px 10px 5px grey;
           box-shadow: 10px 10px 5px grey;
@@ -433,7 +449,6 @@ button.close {
 }
 
 .cardtarot {
-  background: #222;
   cursor: default;
   height: 400px;
   -webkit-transform-style: preserve-3d;
@@ -451,7 +466,21 @@ button.close {
   margin-bottom: 1.8em;
 }
 
-.cardtarot .front,
+.cardtarot .front {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: bold;
+  display: block;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: #8b4a97;
+}
+
 .cardtarot .back {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -472,7 +501,6 @@ button.close {
   background: #fff;
   border-radius: 100%;
   color: #222;
-  font-size: 1.5em;
   line-height: 30px;
   padding: 0 7px 4px 6px;
 }
@@ -573,6 +601,14 @@ button.close {
   .ccardtarot {
     height: 260px;
   }
+}
+
+.fondopricing {
+  background-color: #4e0c5a;
+}
+
+.fondopricing2 {
+  background-color: grey;
 }
 
 /* define primary titles */
@@ -621,6 +657,17 @@ h3 {
   font-size: 20px;
 }
 
+.ptarot {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.preiki {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
 .box-shadow {
   -webkit-box-shadow: 10px 10px 5px grey;
           box-shadow: 10px 10px 5px grey;
@@ -664,7 +711,6 @@ button.close {
 }
 
 .cardtarot {
-  background: #222;
   cursor: default;
   height: 400px;
   -webkit-transform-style: preserve-3d;
@@ -682,7 +728,21 @@ button.close {
   margin-bottom: 1.8em;
 }
 
-.cardtarot .front,
+.cardtarot .front {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: bold;
+  display: block;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: #8b4a97;
+}
+
 .cardtarot .back {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -703,7 +763,6 @@ button.close {
   background: #fff;
   border-radius: 100%;
   color: #222;
-  font-size: 1.5em;
   line-height: 30px;
   padding: 0 7px 4px 6px;
 }
@@ -804,6 +863,14 @@ button.close {
   .ccardtarot {
     height: 260px;
   }
+}
+
+.fondopricing {
+  background-color: #4e0c5a;
+}
+
+.fondopricing2 {
+  background-color: grey;
 }
 
 .Contactanos {
@@ -895,13 +962,142 @@ button.close {
   padding: 0px 30px;
 }
 
+.button__up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: grey;
+}
+
+.button__image {
+  display: block;
+  margin: auto;
+}
+
+.button__up {
+  margin: 10rem 0rem 10rem 0rem;
+}
+
+.button__margin {
+  margin: auto;
+}
+
+#card {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  width: 20vw;
+  height: 60vh;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 411px) {
+  .cardBox {
+    width: 94.5%;
+  }
+  .ccardtarot {
+    height: 260px;
+  }
+  .cardtarot .back {
+    font-size: 0.8em;
+    height: 100%;
+    padding: 0.9em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #8b4a97;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #8b4a97;
+  }
+  .caption span.border {
+    color: #777;
+    padding: 0px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  .cardBox {
+    width: 94.5%;
+  }
+  .ccardtarot {
+    height: 260px;
+  }
+  .cardtarot .back {
+    font-size: 0.8em;
+    height: 100%;
+    padding: 0.9em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #8b4a97;
+  }
+  .styleresponsive1 {
+    width: 95%;
+  }
+}
+
 @media (max-width: 575.98px) {
   .footer-menu {
     display: block;
   }
+  .cardBox {
+    width: 94.5%;
+  }
+  .ccardtarot {
+    height: 260px;
+  }
+  .cardtarot .back {
+    font-size: 0.8em;
+    height: 100%;
+    padding: 0.9em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #8b4a97;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 2.5rem;
+  }
+  h5 {
+    font-size: 2rem;
+  }
+  h6 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
   .footer-main {
     width: 100%;
     display: block;
@@ -917,11 +1113,62 @@ button.close {
   header {
     height: 100vh;
   }
+  .responsivebis {
+    font-size: 2 rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+  .responsivebis {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 3rem;
+  }
+  h5 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  .cardBox {
+    width: 94.5%;
+    margin-left: 40px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ccardtarot {
+    height: 260px;
+  }
+  .cardtarot .back {
+    font-size: 4.5em;
+    height: 100%;
+    padding: 0.9em;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #8b4a97;
+  }
+  .responsiveipad {
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    border-style: none;
+    margin-right: 400px;
+  }
 }
 
 @media only screen and (max-device-width: 1024px) {
   .parallaximg1, .parallaximg2, .parallaximg3, .parallaximg4 {
     background-attachment: scroll;
+  }
+  .responsivebis {
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

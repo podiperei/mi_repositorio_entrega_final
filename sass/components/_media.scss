@@ -1,12 +1,105 @@
+@media (max-width: 411px){
+  .cardBox {
+    width: 94.5%;
+  }
+  .ccardtarot {
+    height: 260px;
+  }
+  .cardtarot .back {
+    font-size: 0.8em;
+    height: 100%;
+    padding: 0.9em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: $colorthird;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 640px) { 
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: $colorthird;
+  
+        span.border {
+            color:#777;
+            padding: 0px;
+            font-size: 25px;
+            letter-spacing: 10px;
+  }
+}
+
+.cardBox {
+  width: 94.5%;
+}
+.ccardtarot {
+  height: 260px;
+}
+.cardtarot .back {
+  font-size: 0.8em;
+  height: 100%;
+  padding: 0.9em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: $colorthird;
+  }
+
+  .styleresponsive1{
+    width: 95%;
+  }
+  }
+
+
 @media (max-width: 575.98px) { 
 
     .footer-menu{
       display: block;
     }
+
+    .cardBox {
+      width: 94.5%;
+    }
+    .ccardtarot {
+      height: 260px;
+    }
+    .cardtarot .back {
+      font-size: 0.8em;
+      height: 100%;
+      padding: 0.9em;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      background-color: $colorthird;
+      }
 }   
     
     @media (min-width: 576px) and (max-width: 767.98px) { 
-    
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 3.5rem;
+      }
+      h3 {
+        font-size: 3rem;
+      }
+      h4 {
+        font-size: 2.5rem;
+      }
+      h5 {
+        font-size: 2rem;
+      }
+      h6 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1.3rem;
+      }
             .footer-main {
             width: 100%;
             display: block;
@@ -22,10 +115,70 @@
   header {
     height: 100vh;
   }
+    .responsivebis{
+    font-size: 2 rem;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  .responsivebis{
+    font-size: 3rem;
+
+  }
+  
+  h4 {
+    font-size: 3rem;
+  }
+  h5 {
+    font-size: 2.5rem;
+  }
+ 
+  p {
+    font-size: 1.4rem;
+  }
+
+ 
+.cardBox {
+  width: 94.5%;
+  margin-left: 40px;
+  align-items: center;
+}
+.ccardtarot {
+  height: 260px;
+}
+.cardtarot .back {
+  font-size: 4.5em;
+  height: 100%;
+  padding: 0.9em;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: $colorthird;
+  }
+
+  .responsiveipad{
+    align-items: left;
+    border-style: none;
+    margin-right: 400px;
+  }
+
 }
 
 @media only screen and (max-device-width: 1024px) {
   .parallaximg1, .parallaximg2, .parallaximg3, .parallaximg4 {
     background-attachment: scroll;
   }
+
+  .responsivebis{
+    font-size: 3rem;
+
+  }
 }
+

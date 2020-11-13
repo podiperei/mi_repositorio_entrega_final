@@ -32,6 +32,11 @@ html {
     background-image: url("/img/CARTAS.jpg");
     min-height: 400px;
   }
+
+  #parallaximg5 {
+    background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20%281%29.jpg');
+    min-height: 400px;
+  }
   
   .caption {
     position: absolute;
@@ -65,6 +70,7 @@ html {
                 font-size: 20px;
                 color: $colorprimary;
             }  
+
 
   .separador1 {
       color: #777;

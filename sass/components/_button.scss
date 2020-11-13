@@ -1,0 +1,32 @@
+.button__up {
+    display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color:$colorfour;
+  }
+
+  .button__image {
+    display: block;
+    margin: auto;
+  }
+
+  .button__up {
+    margin: 10rem 0rem 10rem 0rem;
+  }
+
+  .button__margin {
+    margin: auto;
+  }
+
+#card {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  width: 20vw;
+  height: 60vh;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
