@@ -52,8 +52,8 @@
   .styleresponsive1{
     width: 95%;
   }
-  }
 
+}
 
 @media (max-width: 575.98px) { 
 
@@ -169,6 +169,14 @@
     margin-right: 400px;
   }
 
+  .styleresponsive2{
+      width: 200%;
+  }
+  .styleresponsive3{
+    display: none;
+}
+
+
 }
 
 @media only screen and (max-device-width: 1024px) {
@@ -181,4 +189,3 @@
 
   }
 }
-

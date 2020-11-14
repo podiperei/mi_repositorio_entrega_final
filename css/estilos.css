@@ -1161,6 +1161,12 @@ button.close {
     border-style: none;
     margin-right: 400px;
   }
+  .styleresponsive2 {
+    width: 200%;
+  }
+  .styleresponsive3 {
+    display: none;
+  }
 }
 
 @media only screen and (max-device-width: 1024px) {
