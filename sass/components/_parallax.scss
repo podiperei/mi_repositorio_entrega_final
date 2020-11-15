@@ -12,10 +12,12 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   
   #parallaximg1 {
-    background-image: url("/img/universo.jpg");
+    background-image: url('img/universo.jpg');
     min-height: 750px;
+
   }
   
   #parallaximg2 {
